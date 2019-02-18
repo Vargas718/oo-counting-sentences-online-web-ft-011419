@@ -21,6 +21,6 @@ self.end_with?("!")
   self.split(". ,? ,! ").count
 
 
-  binding.pry
+  #binding.pry
   end
 end
