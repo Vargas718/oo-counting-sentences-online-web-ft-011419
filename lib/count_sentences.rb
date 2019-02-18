@@ -18,7 +18,7 @@ self.end_with?("!")
   end
 
   def count_sentences
-  self.split(".,?,!").count.flatten
+  self.split(".,?,!").count.
   binding.pry
   end
 end
