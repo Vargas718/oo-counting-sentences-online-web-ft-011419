@@ -18,7 +18,7 @@ self.end_with?("!")
   end
 
   def count_sentences
-  
+  count_sentences
   binding.pry
   end
 end
