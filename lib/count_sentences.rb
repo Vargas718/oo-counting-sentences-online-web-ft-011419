@@ -18,7 +18,10 @@ self.end_with?("!")
   end
 
   def count_sentences
-  self.split(".?!").
+  string = ""
+  string << self.split(".?!")
+ string
+
   binding.pry
   end
 end
